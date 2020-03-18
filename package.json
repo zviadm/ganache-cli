@@ -1,6 +1,6 @@
 {
   "name": "@celo/ganache-cli",
-  "version": "6.6.1",
+  "version": "6.9.1",
   "bin": {
     "ganache-cli": "cli.js"
   },
@@ -22,7 +22,7 @@
     "ethereumjs-util"
   ],
   "devDependencies": {
-    "@celo/ganache-core": "https://github.com/celo-org/ganache-core.git#28eb8c3",
+    "@celo/ganache-core": "https://github.com/mrsmkl/ganache-core.git#5e4416d8cc9e76f65264d66d6d963459190c7297",
     "js-scrypt": "0.2.0",
     "node-loader": "^0.6.0",
     "on-build-webpack": "^0.1.0",

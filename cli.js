@@ -83,6 +83,7 @@ var options = {
   blockTime: argv.b,
   gasPrice: argv.g,
   gasLimit: argv.l,
+  callGasLimit: argv.callGasLimit,
   accounts: parseAccounts(argv.account),
   unlocked_accounts: argv.unlock,
   fork: argv.f,
@@ -91,6 +92,7 @@ var options = {
   verbose: argv.v,
   secure: argv.n,
   db_path: argv.db,
+  hd_path: argv.hdPath,
   account_keys_path: argv.account_keys_path,
   vmErrorsOnRPCResponse: !argv.noVMErrorsOnRPCResponse,
   logger: logger,
@@ -186,12 +188,19 @@ server.listen(options.port, options.hostname, function(err, result) {
     console.log(options.gasLimit);
   }
 
+  if (options.callGasLimit) {
+    console.log("");
+    console.log("Call Gas Limit");
+    console.log("==================");
+    console.log(options.callGasLimit);
+  }
+
   if (options.fork) {
     console.log("");
     console.log("Forked Chain");
     console.log("==================");
     console.log("Location:    " + fork_address);
-    console.log("Block:       " + to.number(state.blockchain.fork_block_number));
+    console.log("Block:       " + to.number(state.blockchain.forkBlockNumber));
     console.log("Network ID:  " + state.net_version);
     console.log("Time:        " + (state.blockchain.startTime || new Date()).toString());
   }
