@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@celo/ganache-core@git+https://github.com/celo-org/ganache-core.git#34d94621d82c784f9e3f83d92c920dc6f9fc4ac0":
+"@celo/ganache-core@git+https://github.com/celo-org/ganache-core.git#a41ac442e9665cde314bb6770f4139f82da539a7":
   version "2.10.2"
-  resolved "git+https://github.com/celo-org/ganache-core.git#34d94621d82c784f9e3f83d92c920dc6f9fc4ac0"
+  resolved "git+https://github.com/celo-org/ganache-core.git#a41ac442e9665cde314bb6770f4139f82da539a7"
   dependencies:
     abstract-leveldown "3.0.0"
     async "2.6.2"
