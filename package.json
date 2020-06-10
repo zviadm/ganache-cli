@@ -22,7 +22,7 @@
     "ethereumjs-util"
   ],
   "devDependencies": {
-    "@celo/ganache-core": "git+https://github.com/celo-org/ganache-core.git#a41ac442e9665cde314bb6770f4139f82da539a7",
+    "@celo/ganache-core": "git+https://github.com/celo-org/ganache-core.git#7d207f9",
     "js-scrypt": "0.2.0",
     "node-loader": "^0.6.0",
     "on-build-webpack": "^0.1.0",
