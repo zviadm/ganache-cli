@@ -1,15 +1,11 @@
-<p align="center">
-  <em>NOTICE</em>: <code>testrpc</code> is now <code>ganache-cli</code>. Use it just as you would <code>testrpc</code>.
-</p>
-<hr/>
 
-[![npm](https://img.shields.io/npm/v/ganache-cli.svg)]()
-[![npm](https://img.shields.io/npm/dm/ganache-cli.svg)]()
-[![Build Status](https://travis-ci.org/trufflesuite/ganache-cli.svg?branch=master)](https://travis-ci.org/trufflesuite/ganache-cli)  
+:warning: :warning:
 
-<p align="center">
-  <img src="https://github.com/trufflesuite/ganache-cli/raw/develop/resources/icons/ganache-cli-128x128.png">
-</p>
+This is a fork of `ganache-cli` with *some* adjustments to make it more relevant for Celo. This development network does not replicate the live Celo testnets or mainnet. It is missing core features such as the Celo transaction object and the ability to pay transaction fees in multiple currencies. Please use the [Alfajores testnet](https://docs.celo.org/getting-started/alfajores-testnet) for the network most similar to mainnet. 
+
+Everything below this line is from the original `ganache-cli` README.
+
+---
 
 ## Welcome to Ganache CLI
 Ganache CLI, part of the Truffle suite of Ethereum development tools, is the command line version of [Ganache](https://github.com/trufflesuite/ganache), your personal blockchain for Ethereum development.
